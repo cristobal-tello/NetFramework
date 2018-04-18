@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.UpdatePanelDemo", "02.UpdatePanelDemo\02.UpdatePanelDemo.csproj", "{84218A5E-C7EB-4BE4-B4F3-1B6C21CCD51D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.UpdatePanelOptimizing", "03.UpdatePanelOptimizing\03.UpdatePanelOptimizing.csproj", "{E1F834EA-18D6-44F9-90C5-0D025D9400E5}"
@@ -19,10 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.WCF Service", "09.WCF Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.WCF ServiceUsingFactory", "10.WCF ServiceUsingFactory\10.WCF ServiceUsingFactory.csproj", "{3D76F4EA-F5FC-4DD8-B9B7-E316A24A5316}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Introduction", "01.Introduction", "{88B4EFF7-DBAF-462D-8E39-189C615CB864}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{88B4EFF7-DBAF-462D-8E39-189C615CB864}"
 	ProjectSection(SolutionItems) = preProject
 		01.Notes\Notes.txt = 01.Notes\Notes.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AjaxXMLRequestDirect", "01.AjaxXMLRequestDirect\01.AjaxXMLRequestDirect.csproj", "{FA496E20-9AB9-4562-8476-EDC91738CCAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +70,10 @@ Global
 		{3D76F4EA-F5FC-4DD8-B9B7-E316A24A5316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D76F4EA-F5FC-4DD8-B9B7-E316A24A5316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D76F4EA-F5FC-4DD8-B9B7-E316A24A5316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA496E20-9AB9-4562-8476-EDC91738CCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA496E20-9AB9-4562-8476-EDC91738CCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA496E20-9AB9-4562-8476-EDC91738CCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA496E20-9AB9-4562-8476-EDC91738CCAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
